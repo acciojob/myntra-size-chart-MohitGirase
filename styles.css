@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+table{
+	border: 1px solid black;
+	width: 100%;
+	border-collapse: collapse;
+	font-family: calibri;
+}
+
+th,.rowHead{
+	text-align: left;
+	border: 1px solid black;
+	font-weight: normal;
+}
+td{
+	text-align: right;
+	border: 1px solid black;
+}
+thead{
+	background-color: #C93A3A;
+	color: white;
+	
+}
+
+#first-row{
+	background-color: #D68383;
+	color: white;
+}
+#second-row{
+	background-color: #EBD5D5;
+}
+#third-row{
+	background-color: #E0DEDE;
+}
+
+
